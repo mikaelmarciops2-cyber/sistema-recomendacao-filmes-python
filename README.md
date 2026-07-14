@@ -1,52 +1,80 @@
-# Sistema de Recomendação de Filmes em Python
+# 🎬 Sistema de Recomendação de Filmes em Python
 
-Projeto simples de recomendação de filmes usando Machine Learning com Python.
+Um sistema de recomendação de filmes desenvolvido em **Python** utilizando técnicas de **Machine Learning** para sugerir filmes semelhantes com base nas características do conjunto de dados.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Leitura de dados CSV
-- Similaridade entre filmes
+- Leitura de dados a partir de um arquivo CSV
+- Processamento e vetorização de texto
+- Cálculo de similaridade entre filmes
 - Recomendações automáticas
-- Vetorização de texto
-- Similaridade de cosseno
+- Utilização da Similaridade de Cosseno
 
-## Tecnologias usadas
+## 🛠️ Tecnologias
 
-- Python 3
+- Python 3.x
 - Pandas
 - Scikit-learn
 
-## Como executar
+## 📦 Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/sistema-recomendacao-filmes-python.git
+cd sistema-recomendacao-filmes-python
+```
 
 Instale as dependências:
 
 ```bash
 python -m pip install -r requirements.txt
+```
 
-Execute:
+## ▶️ Executando o projeto
+
+Execute o programa com:
+
+```bash
 python main.py
+```
 
-Estrutura do projeto:
+## 📁 Estrutura do projeto
+
+```text
 sistema-recomendacao-filmes-python/
-│
-├── main.py
-├── filmes.csv
-├── requirements.txt
-├── .gitignore
-└── README.md
+├── main.py            # Código principal
+├── filmes.csv         # Base de dados dos filmes
+├── requirements.txt   # Dependências do projeto
+├── .gitignore         # Arquivos ignorados pelo Git
+└── README.md          # Documentação
+```
 
-Conceitos aplicados:
-Machine Learning
-Similaridade de cosseno
-Processamento de texto
-Recomendação inteligente
-Melhorias futuras
-Interface gráfica
-Banco de dados
-Dataset real de filmes
-Recomendações mais avançadas
-API REST
+## 🧠 Conceitos aplicados
 
-Autor
+- Machine Learning
+- Processamento de Linguagem Natural (NLP)
+- Vetorização de texto
+- Similaridade de Cosseno
+- Sistemas de Recomendação
 
-Mikael Márcio Macêdo Silva
+## 🚀 Possíveis melhorias
+
+- Interface gráfica (Tkinter ou PyQt)
+- API REST com FastAPI
+- Banco de dados para armazenamento
+- Utilização de um dataset maior (MovieLens, IMDb, etc.)
+- Recomendações personalizadas para usuários
+- Deploy da aplicação
+
+## 👨‍💻 Autor
+
+**Mikael Márcio Macêdo Silva**
+
+### OBS:
+
+Este projeto foi desenvolvido por mim com o auxílio do **ChatGPT (OpenAI)**, utilizado como ferramenta de apoio para esclarecer dúvidas, sugerir melhorias e auxiliar na documentação.
+
+## 📄 Licença
+
+Este projeto está disponível sob a licença **MIT**.
